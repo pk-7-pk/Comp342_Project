@@ -1,7 +1,6 @@
-# Comp342_Project
-Project for COMP 342
+## Comp 342 Project
 
-Member Names:
-- Nicholas Chamoun (ID; 40264135)
-- Prakhar Dixit (ID: 40327655)
-  
+|Nicholas Chamoun |40264135|
+|---|---|
+|Prakhar Dixit| 40327655|
+|Octavian Mihai| 40304833|
