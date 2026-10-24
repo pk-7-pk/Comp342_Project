@@ -1,0 +1,323 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="PLCtkQvbskkUIge0OuOl">
+    <mxGraphModel dx="2018" dy="1905" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Family&lt;div&gt;Physician&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-640" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":Appointment&lt;div&gt;Tracking&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="100" x="-310" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-6" parent="8e5pNU2LJL0Y7Ohq2_Be-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-30" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-5" source="8e5pNU2LJL0Y7Ohq2_Be-6" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;validatePatientAndProfessional()&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.1538" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="110" y="180" />
+              <mxPoint x="110" y="200" />
+            </Array>
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="135" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-32" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-5" source="8e5pNU2LJL0Y7Ohq2_Be-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-6" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal; color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot;&gt;createReferral(status = Acti&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: normal; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(31, 31, 31), rgb(210, 210, 210)); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;&quot;&gt;ve)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1538" y="14" as="geometry">
+            <mxPoint x="10" y="-4" as="offset" />
+            <Array as="points">
+              <mxPoint x="110" y="220" />
+              <mxPoint x="110" y="240" />
+            </Array>
+            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="150" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=0;" value="" vertex="1">
+          <mxGeometry height="335" width="100" x="-675" y="-865" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-14" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-11" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="8e5pNU2LJL0Y7Ohq2_Be-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;issueConsultationRequest(patientID, professionalID, requestedSpecialty, clinicalReason, priority)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.2653" as="geometry">
+            <Array as="points">
+              <mxPoint x="-445.25" y="-810" />
+            </Array>
+            <mxPoint x="-570" y="-810" as="sourcePoint" />
+            <mxPoint x="-520" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-16" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="735" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;defaultLabelBackgroundColor=page;" target="8e5pNU2LJL0Y7Ohq2_Be-16" value="callback">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="855" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-18" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;defaultLabelBackgroundColor=page;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-27" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=90;height=30;" value="Alternative" vertex="1">
+          <mxGeometry height="170" width="630" x="-730" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-28" parent="8e5pNU2LJL0Y7Ohq2_Be-27" style="text;html=1;" value="[if request&lt;div&gt;&amp;nbsp; &amp;nbsp; is valid]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" relative="1" width="100" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-29" parent="8e5pNU2LJL0Y7Ohq2_Be-27" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;labelPerimeter=1;" value="[else]" vertex="1">
+          <mxGeometry height="10" width="630" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-34" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-27" source="8e5pNU2LJL0Y7Ohq2_Be-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-11" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;error(msg)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+            </Array>
+            <mxPoint x="495.5" y="130" as="sourcePoint" />
+            <mxPoint x="625.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-33" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=right;" target="8e5pNU2LJL0Y7Ohq2_Be-11" value="&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;confirmReferralCreation(referralID)&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.5395" as="geometry">
+            <Array as="points">
+              <mxPoint x="-445.25" y="-690" />
+            </Array>
+            <mxPoint x="-285" y="-690" as="sourcePoint" />
+            <mxPoint x="-500" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;System Sequence Diagram for Use Case A&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="324" x="-610" y="-1017" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-36" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Family&lt;div&gt;Physician&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-674" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":Appointment&lt;div&gt;Tracking&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="100" x="-344" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-38" parent="8e5pNU2LJL0Y7Ohq2_Be-37" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-39" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-37" source="8e5pNU2LJL0Y7Ohq2_Be-38" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-38" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;validatePatientAndProfessional()&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.1538" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="110" y="180" />
+              <mxPoint x="110" y="200" />
+            </Array>
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="135" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-40" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-37" source="8e5pNU2LJL0Y7Ohq2_Be-38" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-38" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal; color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;&quot;&gt;createReferral(status = Acti&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: normal; background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(31, 31, 31), rgb(210, 210, 210)); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;&quot;&gt;ve)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1538" y="14" as="geometry">
+            <mxPoint x="10" y="-4" as="offset" />
+            <Array as="points">
+              <mxPoint x="110" y="220" />
+              <mxPoint x="110" y="240" />
+            </Array>
+            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="150" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-41" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=0;" value="" vertex="1">
+          <mxGeometry height="335" width="100" x="-709" y="1345" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-42" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-41" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="8e5pNU2LJL0Y7Ohq2_Be-38" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;issueConsultationRequest(patientID, professionalID, requestedSpecialty, clinicalReason, priority)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.2653" as="geometry">
+            <Array as="points">
+              <mxPoint x="-479.25" y="1400" />
+            </Array>
+            <mxPoint x="-604" y="1400" as="sourcePoint" />
+            <mxPoint x="-554" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-43" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=90;height=30;" value="Alternative" vertex="1">
+          <mxGeometry height="170" width="630" x="-764" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-44" parent="8e5pNU2LJL0Y7Ohq2_Be-43" style="text;html=1;" value="[if request&lt;div&gt;&amp;nbsp; &amp;nbsp; is valid]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" relative="1" width="100" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-45" parent="8e5pNU2LJL0Y7Ohq2_Be-43" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;labelPerimeter=1;" value="[else]" vertex="1">
+          <mxGeometry height="10" width="630" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-46" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-43" source="8e5pNU2LJL0Y7Ohq2_Be-38" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-41" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;error(msg)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+            </Array>
+            <mxPoint x="495.5" y="130" as="sourcePoint" />
+            <mxPoint x="625.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-47" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-38" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=right;" target="8e5pNU2LJL0Y7Ohq2_Be-41" value="&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;confirmReferralCreation(referralID)&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.5395" as="geometry">
+            <Array as="points">
+              <mxPoint x="-479.25" y="1520" />
+            </Array>
+            <mxPoint x="-319" y="1520" as="sourcePoint" />
+            <mxPoint x="-534" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;System Sequence Diagram for Use Case C&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="324" x="-644" y="1193" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-49" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Administrative&lt;div&gt;Staff&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="-618" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-50" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":Appointment&lt;div&gt;Tracking&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="865" width="100" x="-288" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-51" parent="8e5pNU2LJL0Y7Ohq2_Be-50" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="676" width="10" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-54" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;sequenceEdgeStyle&quot;,&quot;libavoidRouting&quot;:0,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=0;" value="" vertex="1">
+          <mxGeometry height="770" width="100" x="-653" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-55" edge="1" parent="1" source="8e5pNU2LJL0Y7Ohq2_Be-54" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" target="8e5pNU2LJL0Y7Ohq2_Be-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;findPatientFile(patientPhoneNumber, patientName, patientDoB)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.2653" as="geometry">
+            <Array as="points">
+              <mxPoint x="-423.24999999999955" y="245" />
+            </Array>
+            <mxPoint x="-548" y="245" as="sourcePoint" />
+            <mxPoint x="-498" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-56" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=90;height=30;" value="Alternative" vertex="1">
+          <mxGeometry height="144" width="518" x="-709" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-57" parent="8e5pNU2LJL0Y7Ohq2_Be-56" style="text;html=1;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;[if patient has&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;an upcoming&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;appointment&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;today]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" relative="1" width="67" as="geometry">
+            <mxPoint x="7" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-59" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-56" source="8e5pNU2LJL0Y7Ohq2_Be-51" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-54" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;error(msg)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="283.25" y="123" />
+            </Array>
+            <mxPoint x="491.5" y="113" as="sourcePoint" />
+            <mxPoint x="621.5" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-60" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-56" source="8e5pNU2LJL0Y7Ohq2_Be-51" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-54" value="&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;displayAppointmentDetails(), appointmentID&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.2083" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="228.51" y="64.13" />
+            </Array>
+            <mxPoint x="444.5" y="70" as="sourcePoint" />
+            <mxPoint x="229.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-58" parent="8e5pNU2LJL0Y7Ohq2_Be-56" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;labelPerimeter=1;" value="[else]" vertex="1">
+          <mxGeometry height="10" width="518" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;System Sequence Diagram for Use Case B&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="324" x="-588" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;findUpcomingAppointment(patientID, date = today)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.2653" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-603" y="428" as="sourcePoint" />
+            <mxPoint x="-243" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-67" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;registerPatientArrivalforAppointment(patientID, appointmentID)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0479" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-424" y="619.9999999999995" />
+            </Array>
+            <mxPoint x="-604" y="620" as="sourcePoint" />
+            <mxPoint x="-244" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-73" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=90;height=30;" value="Alternative" vertex="1">
+          <mxGeometry height="144" width="659" x="-708" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-74" parent="8e5pNU2LJL0Y7Ohq2_Be-73" style="text;html=1;" value="&lt;font size=&quot;1&quot;&gt;if request&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;is valid&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" relative="1" width="67" as="geometry">
+            <mxPoint x="7" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-79" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-73" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;error(msg)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="283" y="122" />
+            </Array>
+            <mxPoint x="463" y="122" as="sourcePoint" />
+            <mxPoint x="103" y="122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-80" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-73" source="8e5pNU2LJL0Y7Ohq2_Be-51" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" target="8e5pNU2LJL0Y7Ohq2_Be-51" value="&lt;font size=&quot;1&quot;&gt;&amp;nbsp;setArrivalStatus(patientID,&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;appointmentID, status = arrived)&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3488" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="502.9999999999998" y="12.997745664740535" />
+              <mxPoint x="502.9999999999998" y="42.99774566474008" />
+            </Array>
+            <mxPoint x="480" y="46.31999999999999" as="sourcePoint" />
+            <mxPoint x="578.87" y="73.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-83" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-73" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=right;" value="&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;status&lt;/span&gt;&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0766" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="283" y="72" />
+            </Array>
+            <mxPoint x="463" y="72" as="sourcePoint" />
+            <mxPoint x="103" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-77" parent="8e5pNU2LJL0Y7Ohq2_Be-73" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;labelPerimeter=1;" value="[else]" vertex="1">
+          <mxGeometry height="10" width="656" x="1.5" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-85" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=90;height=30;" value="Alternative" vertex="1">
+          <mxGeometry height="130" width="518" x="-706.5" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-86" parent="8e5pNU2LJL0Y7Ohq2_Be-85" style="text;html=1;" value="&lt;font size=&quot;1&quot;&gt;[if patient&#39;s&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;exists]&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" relative="1" width="67" as="geometry">
+            <mxPoint x="7" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-89" parent="8e5pNU2LJL0Y7Ohq2_Be-85" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;labelPerimeter=1;" value="[else]" vertex="1">
+          <mxGeometry height="10" width="518" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-64" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-85" source="8e5pNU2LJL0Y7Ohq2_Be-51" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=right;" target="8e5pNU2LJL0Y7Ohq2_Be-54" value="&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;patientID&lt;/span&gt;&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.1472" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="174.75" y="41" />
+            </Array>
+            <mxPoint x="462" y="-46.25" as="sourcePoint" />
+            <mxPoint x="102" y="-46.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-90" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-85" source="8e5pNU2LJL0Y7Ohq2_Be-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="8e5pNU2LJL0Y7Ohq2_Be-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8e5pNU2LJL0Y7Ohq2_Be-91" edge="1" parent="8e5pNU2LJL0Y7Ohq2_Be-85" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#1f1f1f&quot; face=&quot;Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif&quot; size=&quot;1&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: rgb(255, 255, 255);&quot;&gt;error(msg)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1373" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="281.9999999999998" y="105" />
+            </Array>
+            <mxPoint x="462.5" y="105" as="sourcePoint" />
+            <mxPoint x="101.5" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
