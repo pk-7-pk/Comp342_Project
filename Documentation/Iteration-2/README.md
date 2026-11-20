@@ -4,7 +4,8 @@ For a better file quality, see those folders;
 - Documentation/Iteration-2/drawio-files 
 - Documentation/Iteration-2/png-files
 
-For the Report; [report]
+For the Report; 
+- Documentation/Iteration-2/SOEN-342_Iteration-2.pdf
 
 ---
 ### Phase 2 – Proof of Concept (PoC)
