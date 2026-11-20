@@ -1,0 +1,385 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="UxaSvkTv64Iju_AeKKdz" name="Interaction Diagram 1 – Book an Appointment: confirmAppointment (UC3)">
+    <mxGraphModel dx="3404" dy="2197" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-1" parent="1" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;verticalAlign=top;spacingTop=64;labelBackgroundColor=#ffffff;align=center;size=60;fontSize=15;" value="Administrative Staff" vertex="1">
+          <mxGeometry height="1209" width="30" x="-955" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value=":AppointmentController" vertex="1">
+          <mxGeometry height="1209" width="166" x="-705" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value=":ClinicRegistry" vertex="1">
+          <mxGeometry height="1209" width="122" x="-410" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value="pro :Professional" vertex="1">
+          <mxGeometry height="1209" width="134" x="-266" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value="svc :Service" vertex="1">
+          <mxGeometry height="1209" width="102" x="-110" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value=":ResourcePool" vertex="1">
+          <mxGeometry height="1209" width="109" x="14" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value=":AppointmentBook" vertex="1">
+          <mxGeometry height="1209" width="128" x="144" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=15;" value="a :Appointment" vertex="1">
+          <mxGeometry height="1209" width="115" x="424" y="-742" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="172" width="1589" x="-1024" y="-384" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-10" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=26;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=15;" value="opt" vertex="1">
+          <mxGeometry height="26" width="60" x="-1024" y="-384" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-11" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;" value="[svc.requiresReferral]" vertex="1">
+          <mxGeometry height="24" width="1517" x="-926" y="-383" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="100" width="1589" x="-1024" y="-148" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-13" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=26;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=15;" value="loop" vertex="1">
+          <mxGeometry height="26" width="60" x="-1024" y="-148" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-14" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;" value="[for each Availability a]" vertex="1">
+          <mxGeometry height="24" width="1517" x="-926" y="-147" as="geometry" />
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="confirmAppointment(patientId, professionalId,&lt;br&gt;clinicId, dateTime, serviceCode, referralId,&lt;br&gt;reason)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-940" y="-572" as="sourcePoint" />
+            <mxPoint x="-622" y="-572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="patient = getPatient(patientId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="-536" as="sourcePoint" />
+            <mxPoint x="-349" y="-536" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="pro = getProfessional(professionalId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="-500" as="sourcePoint" />
+            <mxPoint x="-349" y="-500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="svc = getService(serviceCode)">
+          <mxGeometry relative="1" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-622" y="-464" as="sourcePoint" />
+            <mxPoint x="-349" y="-464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="duration = getDurationMinutes()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-623" y="-415" as="sourcePoint" />
+            <mxPoint x="-60" y="-415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="requiresReferral()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="-344" as="sourcePoint" />
+            <mxPoint x="-59" y="-344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="ref = getReferral(patient, referralId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="-308" as="sourcePoint" />
+            <mxPoint x="-349" y="-308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;align=left;" value="ref.isUsableFor(patient, pro)">
+          <mxGeometry relative="1" x="0.2188" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-572" y="-272" />
+              <mxPoint x="-572" y="-244" />
+            </Array>
+            <mxPoint x="-622" y="-272" as="sourcePoint" />
+            <mxPoint x="-622" y="-244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="isAvailable(clinicId, dateTime, duration)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-621" y="-172" as="sourcePoint" />
+            <mxPoint x="-198" y="-172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;align=left;" value="a.covers(clinicId, dateTime, duration)">
+          <mxGeometry relative="1" x="0.1584" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-149" y="-108" />
+              <mxPoint x="-149" y="-80" />
+            </Array>
+            <mxPoint x="-199" y="-108" as="sourcePoint" />
+            <mxPoint x="-199" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="slot">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-199" y="-8" as="sourcePoint" />
+            <mxPoint x="-622" y="-8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="resourceTypes = getRequiredResources()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="31" as="sourcePoint" />
+            <mxPoint x="-59" y="31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="resources = allocate(resourceTypes, dateTime, duration)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="80" as="sourcePoint" />
+            <mxPoint x="68" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="createAppointment(patient, pro, clinicId, svc, ref, dateTime, duration, reason, resources)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-621" y="156" as="sourcePoint" />
+            <mxPoint x="209" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="new(patient, pro, clinicId, svc, ref,&lt;br&gt;dateTime, duration, reason, resources)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="209" y="200" as="sourcePoint" />
+            <mxPoint x="482" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="a (status = confirmed)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482" y="237" as="sourcePoint" />
+            <mxPoint x="209" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="a">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="207" y="268" as="sourcePoint" />
+            <mxPoint x="-623" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=15;labelBackgroundColor=#ffffff;" value="reserve(slot, dateTime, duration)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-625" y="322" as="sourcePoint" />
+            <mxPoint x="-202" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSsJvjGTaqlxP8QU8h1W-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=15;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="appointmentConfirmed(a.appointmentId,&lt;br&gt;duration, resources)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-622" y="368" as="sourcePoint" />
+            <mxPoint x="-940" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NA88rXG5fBosGgmOJI-u" name="Page-2">
+    <mxGraphModel dx="1921" dy="1364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-1" parent="1" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;verticalAlign=top;spacingTop=64;labelBackgroundColor=#ffffff;align=center;size=60;fontSize=13;" value="Administrative Staff" vertex="1">
+          <mxGeometry height="549" width="30" x="-161.5" y="-106" as="geometry" />
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":AppointmentController" vertex="1">
+          <mxGeometry height="549" width="166" x="62.5" y="-106" as="geometry" />
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":AppointmentBook" vertex="1">
+          <mxGeometry height="549" width="128" x="322.5" y="-106" as="geometry" />
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value="a :Appointment" vertex="1">
+          <mxGeometry height="549" width="115" x="472.5" y="-106" as="geometry" />
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":AuditLog" vertex="1">
+          <mxGeometry height="549" width="100" x="608.5" y="-106" as="geometry" />
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="registerArrival(appointmentId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-146.5" y="30" as="sourcePoint" />
+            <mxPoint x="145.5" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="a = getAppointment(appointmentId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="66" as="sourcePoint" />
+            <mxPoint x="386.5" y="66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="isToday() : true">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="102" as="sourcePoint" />
+            <mxPoint x="529.5" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="isConfirmed() : true">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="138" as="sourcePoint" />
+            <mxPoint x="529.5" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="markArrived(currentTime)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="174" as="sourcePoint" />
+            <mxPoint x="529.5" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;align=left;" value="arrivalTime = currentTime">
+          <mxGeometry relative="1" x="0.1563" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="579.5" y="210" />
+              <mxPoint x="579.5" y="238" />
+            </Array>
+            <mxPoint x="529.5" y="210" as="sourcePoint" />
+            <mxPoint x="529.5" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;align=left;" value="status = arrived">
+          <mxGeometry relative="1" x="0.1719" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="579.5" y="270" />
+              <mxPoint x="579.5" y="298" />
+            </Array>
+            <mxPoint x="529.5" y="270" as="sourcePoint" />
+            <mxPoint x="529.5" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="record(user, &quot;registerArrival&quot;, a.appointmentId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="347" as="sourcePoint" />
+            <mxPoint x="658.5" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0pu9vesWz2QE0dKCHqI-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="confirmArrivalRegistration(appointmentId,&lt;br&gt;arrivalTime)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.5" y="400" as="sourcePoint" />
+            <mxPoint x="-146.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dhbQFyu10olkUsPOhTgj" name="Page-3">
+    <mxGraphModel dx="1521" dy="1364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-1" parent="1" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=nowrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;verticalAlign=top;spacingTop=64;labelBackgroundColor=#ffffff;align=center;size=60;fontSize=13;" value="Family Physician" vertex="1">
+          <mxGeometry height="787.5" width="30" x="83" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":ReferralController" vertex="1">
+          <mxGeometry height="787.5" width="147" x="291" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":ClinicRegistry" vertex="1">
+          <mxGeometry height="787.5" width="122" x="609" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value="patient :Patient" vertex="1">
+          <mxGeometry height="787.5" width="128" x="753" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value=":AuditLog" vertex="1">
+          <mxGeometry height="787.5" width="100" x="903" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=56;fontSize=13;" value="r :Referral" vertex="1">
+          <mxGeometry height="784.5" width="100" x="1046" y="-24.5" as="geometry" />
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="startConsultationRequest(patientId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="111.5" as="sourcePoint" />
+            <mxPoint x="364" y="111.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="patient = getPatient(patientId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="147.5" as="sourcePoint" />
+            <mxPoint x="670" y="147.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="patientSummary">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="183.5" as="sourcePoint" />
+            <mxPoint x="98" y="183.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="specifyRecipient(specialtyName, professionalId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="236.5" as="sourcePoint" />
+            <mxPoint x="364" y="236.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="specialty = getSpecialty(specialtyName)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="272.5" as="sourcePoint" />
+            <mxPoint x="670" y="272.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="recipient = getProfessional(professionalId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="308.5" as="sourcePoint" />
+            <mxPoint x="670" y="308.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="enterReferralDetails(clinicalReason, priority)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="361.5" as="sourcePoint" />
+            <mxPoint x="364" y="361.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="submitConsultationRequest()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="98" y="397.5" as="sourcePoint" />
+            <mxPoint x="364" y="397.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;align=left;" value="validate(clinicalReason, priority)">
+          <mxGeometry relative="1" x="0.1563" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="414" y="433.5" />
+              <mxPoint x="414" y="461.5" />
+            </Array>
+            <mxPoint x="364" y="433.5" as="sourcePoint" />
+            <mxPoint x="364" y="461.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="createReferral(issuer, specialty, recipient, clinicalReason, priority)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="510.5" as="sourcePoint" />
+            <mxPoint x="817" y="510.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="new(issuer, specialty, recipient, clinicalReason, priority)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817" y="563.5" as="sourcePoint" />
+            <mxPoint x="1096" y="563.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="r (status = active, dateIssued = today)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1096" y="599.5" as="sourcePoint" />
+            <mxPoint x="817" y="599.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="r">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="817" y="635.5" as="sourcePoint" />
+            <mxPoint x="364" y="635.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=1;fontSize=13;labelBackgroundColor=#ffffff;" value="record(user, &quot;submitConsultationRequest&quot;, r.referralId)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="681" as="sourcePoint" />
+            <mxPoint x="953" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A3eFjIlf2L9DOUq79_5C-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;endFill=0;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" value="confirmReferralCreation(r.referralId, active)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="725" as="sourcePoint" />
+            <mxPoint x="98" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
