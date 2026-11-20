@@ -1,0 +1,5 @@
+Service Code,Name,Fee,Insured,Requires Referral,Duration
+GEN,General consultation,0.0,true,false,30
+CARD,Cardiology consultation,0.0,true,true,60
+DERM,Dermatology consultation,0.0,true,true,30
+ORTHO,Orthopedic evaluation,0.0,true,true,45
